@@ -8,7 +8,6 @@
 public interface Figure {
     boolean move(int newX, int newY); //true-empty ; false-not empty
     boolean check(int newX, int newY, int colour); // if move==false check true-enemy ; false-ally
-    boolean attack(int newStatus); //if check=true attack status=false
 
 
 
